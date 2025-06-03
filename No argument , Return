@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int number() {
+    return 7;
+}
+
+int main() {
+    //int name = number(); // Get returned value
+    //cout << "Number: " << name << endl;
+    cout<< number() << endl;
+    return 0;
+}
