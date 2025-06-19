@@ -91,10 +91,10 @@ void temp::extractBook() {
     while (getline(file, id, '*') &&
            getline(file, name, '*') &&
            getline(file, author)) {
-        if (search == id) {  // ✅ FIXED VARIABLE NAME `serach` ➝ `search`
+        if (search == id) { 
             cout << "\t\t " << id << "\t\t\t" << name << "\t\t\t" << author << endl;
             cout << "Book Extracted Successfully";
         }
     }
-    file.close(); // ✅ MISSING close
+    file.close(); 
 }
